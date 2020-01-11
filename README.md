@@ -15,3 +15,24 @@ wyznaczenie funkcji zależności pomiędzy zmiennymi za pomocą regresji.
 określonego stałego przedziału czasowego (np. godzina, dzień, miesiąc).
 
 ## Głównymi pakietami w Pythonie do zastosowania w statystyce są:
+
+> import numpy as np
+from scipy.stats import scoreatpercentile
+data = np.loadtxt("Wzrost.csv", delimiter=',', skiprows=0, unpack=True)
+print(data)
+Statystyka i Algebra w Praktyce
+4
+data1 = np.loadtxt("FL_insurance_sample.csv", delimiter=',', usecols=(7,),
+skiprows=1, unpack=True)
+print(data1)
+print(len(data1))
+print("Maksymalny wzrost:", data.max())
+print("Maksymalny wzrost, funkcja:", np.max(data))
+print("Minimalny wzrost:", data.min())
+print("Minimalny wzrost, funkcja:", np.min(data))
+print("Średni wzrost:", data.mean())
+print("Średni wzrost, funkcja:", np.mean(data))
+print("Odchylenie standardowe, wzrost:", data.std())
+print("Odchylenie standardowe, wzrost, funkcja:", np.std(data))
+print("Mediana:", np.median(data))
+print("Wartość na 50 procencie:", scoreatpercentile(data, 50))
