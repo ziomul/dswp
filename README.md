@@ -19,6 +19,8 @@ określonego stałego przedziału czasowego (np. godzina, dzień, miesiąc).
 Informacje dotyczące funkcji statystycznych w pakiecie SciPy.stats można znaleźć:
 [link](https://docs.scipy.org/doc/scipy/reference/stats.html)
 
+
+
 ![Obraz](http://www.oprojektowaniu.pl/wp-content/uploads/2018/03/PDI-Header-805x452.png)
 
 Ćwiczenie
