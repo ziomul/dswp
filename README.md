@@ -16,7 +16,13 @@ określonego stałego przedziału czasowego (np. godzina, dzień, miesiąc).
 
 ## Głównymi pakietami w Pythonie do zastosowania w statystyce są:
 
-> import numpy as np
+Informacje dotyczące funkcji statystycznych w pakiecie SciPy.stats można znaleźć:
+[link](https://docs.scipy.org/doc/scipy/reference/stats.html)
+
+
+
+### Kod w python
+import numpy as np
 from scipy.stats import scoreatpercentile
 data = np.loadtxt("Wzrost.csv", delimiter=',', skiprows=0, unpack=True)
 print(data)
