@@ -20,10 +20,10 @@ Informacje dotyczące funkcji statystycznych w pakiecie SciPy.stats można znale
 [link](https://docs.scipy.org/doc/scipy/reference/stats.html)
 
 Ćwiczenie
-1. Przygotuj macierz 4x4 (wpisz dowolne liczby). Odwróć macierz, sprawdź czy wynik jest dobry.
+* Przygotuj macierz 4x4 (wpisz dowolne liczby). Odwróć macierz, sprawdź czy wynik jest dobry.
  * otwórz pythona
  * zacznij pisać
-2. Rozwiąż układ równań linowych, gdzie współczynniki pochodzą z powstałej macierzy. Dodaj
+* Rozwiąż układ równań linowych, gdzie współczynniki pochodzą z powstałej macierzy. Dodaj
 dodatkowy wektor wyrazów wolnych
 
 
