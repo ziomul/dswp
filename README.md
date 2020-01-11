@@ -53,3 +53,4 @@ print("Odchylenie standardowe, wzrost:", data.std())
 print("Odchylenie standardowe, wzrost, funkcja:", np.std(data))
 print("Mediana:", np.median(data))
 print("Wartość na 50 procencie:", scoreatpercentile(data, 50))
+```
