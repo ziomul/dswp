@@ -32,6 +32,7 @@ dodatkowy wektor wyrazów wolnych
 
 
 ### Kod w python
+
 ```python
 import numpy as np
 from scipy.stats import scoreatpercentile
